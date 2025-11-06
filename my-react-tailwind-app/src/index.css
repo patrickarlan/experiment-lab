@@ -11,9 +11,9 @@
   color: #a4d6ff;
   margin-left: 1.5rem;
   font-weight: 500;
-  padding: 0.1rem 0.1rem;/* same padding as hover */
+  padding: 0.4rem 0.8rem;/* same padding as hover */
   border-radius: 2rem; /* also same radius so shape doesn’t change */
-  transition: all 0.2s ease; /* smooth hover animation */
+  transition: all 0.2s ease; /* smooth hover animation */;
 }
 
 .site-nav a:hover {
