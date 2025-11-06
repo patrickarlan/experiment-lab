@@ -1,5 +1,32 @@
   @import "tailwindcss";
 
+.site-header {
+  background-color: #3d0a4d !important; /* dark slate background */
+  color: #a4d6ff;            /* light text */
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.site-nav a {
+  color: #a4d6ff;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  padding: 0.1rem 0.1rem;/* same padding as hover */
+  border-radius: 2rem; /* also same radius so shape doesn’t change */
+  transition: all 0.2s ease; /* smooth hover animation */
+}
+
+.site-nav a:hover {
+  color: #d1eaff;
+  background-color: #5a1a6e;
+}
+
+.site-footer {
+  background-color: #1e293b; /* dark slate background */
+  color: #f8fafc;            /* light text */
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

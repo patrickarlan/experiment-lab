@@ -1,17 +1,12 @@
 import profilePic from './assets/patrick.jpg';
+import MainHeader from './components/mainheader';
 
 export default function App() {
   return (
     <div className="min-h-screen w-screen bg-gray-100 text-gray-800 overflow-x-hidden flex flex-col">
       {/* Header */}
-      <header className="bg-blue-600 text-white py-4 px-10 flex justify-between items-center shadow-md flex-wrap w-full">
-        <h1 className="text-2xl md:text-3xl font-bold">Patrick Brequillo</h1>
-        <nav className="space-x-6 mt-2 md:mt-0 text-sm md:text-base">
-          <a href="#about" className="hover:text-gray-200">About</a>
-          <a href="#projects" className="hover:text-gray-200">Projects</a>
-          <a href="#contact" className="hover:text-gray-200">Contact</a>
-        </nav>
-      </header>
+      <MainHeader />
+      
 
       {/* Hero Section */}
   <main className="flex flex-col md:flex-row items-center justify-center text-center md:text-left px-10 py-20 md:py-32 w-full gap-x-10 flex-1">
@@ -35,7 +30,7 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="py-4 md:py-6 text-center text-sm md:text-base text-gray-500 border-t w-full mt-auto">
+      <footer className="site-footer py-4 md:py-6 text-center text-sm md:text-base border-t w-full mt-auto">
         © {new Date().getFullYear()} Patrick Brequillo. All rights reserved.
       </footer>
     </div>
